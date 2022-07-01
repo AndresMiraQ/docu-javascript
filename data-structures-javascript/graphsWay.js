@@ -6,7 +6,7 @@
 */
 //First way: Edge list
 
-const graph = [
+const graph1 = [
     [0,2],
     [2,3],
     [2,1],
@@ -15,9 +15,9 @@ const graph = [
 
 //Second way: Adjacent list
 //              0     1       2       3
-const graph = [[2], [2,3], [0,1,3], [1,2]];
+const graph2 = [[2], [2,3], [0,1,3], [1,2]];
 
-const graph = {
+const graph3 = {
     0: [2],
     1: [2,3],
     2: [0,1,3],
@@ -26,14 +26,14 @@ const graph = {
 
 //third way: Adjacent matrix
 
-const graph = [
+const graph4 = [
     [0,0,1,0],
     [0,0,1,1],
     [1,1,0,1],
     [0,1,1,0],
 ];
 
-const graph = {
+const graph5 = {
    0: [0,0,1,0],
    1: [0,0,1,1],
    2: [1,1,0,1],
